@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-    res.sendFile(__dirname + '/login.html');
+    res.render("login");
 });
 
 router.post('/', function(req, res) {

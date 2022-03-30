@@ -5,7 +5,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.sendFile(__dirname + '/register.html');
+  res.render("register");
 });
 
 router.post('/', function(req, res) {
